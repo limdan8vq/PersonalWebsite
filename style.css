@@ -1,0 +1,111 @@
+body {
+    background-color:rgb(102, 176, 102);
+}
+.TitleAndContact {
+    text-align:center; 
+    background-color:darkslategray;
+    padding: 0.5%;
+}
+#Title {color:azure; text-align:center; font-family:'Times New Roman';}
+#Contact {color:aliceblue; text-align: center; font-family: Arial;}
+#ProfessionalMe {
+    float:left;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+#Bio {
+    background-color:rgb(115, 197, 115);
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 270px;
+    margin-right: 340px;
+    padding: 18px;
+    color:black;
+}
+h3{
+    text-align:center;
+    font-size:larger;
+}
+.CodingProjects{
+    padding-top: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 18px;
+    border-radius:8px;
+    margin-top: 20px;
+    margin-left:20px;
+    margin-right:20px;
+    background-image: url("CSBGFade.png");
+    background-repeat: repeat-x;
+    color:aliceblue;
+    a:visited {
+        color:aliceblue;
+    }
+    a:hover {
+        color: rgb(192, 226, 255);
+    }
+}
+.MusicProjects{
+    padding-top: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 18px;
+    border-radius:8px;
+    margin-top:20px;
+    margin-left:20px;
+    margin-right:20px;
+    background-image: url("MusicBGFaded.jpg");
+    background-repeat: repeat-x;
+    background-position-y: -600px;
+    color: black;
+    a:link {
+        color: black;
+    }
+    a:visited {
+        color:black;
+    }
+    a:hover {
+        color: rgb(96, 84, 175);
+    }
+}
+.WritingProjects {
+    padding-top: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 18px;
+    border-radius:8px;
+    margin-top:20px;
+    margin-left:20px;
+    margin-right:20px;
+    background-image: url("WritingBGFaded.png");
+    background-repeat: repeat-x;
+    background-position-y: -350px;
+    background-position-x: right;
+    color: antiquewhite;
+    a:link {
+        color: antiquewhite;
+    }
+    a:visited {
+        color:antiquewhite;
+    }
+    a:hover {
+        color: rgb(168, 231, 245);
+    }
+}
+.Final{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(115, 197, 115);
+    padding: 10px;
+    border-radius: 18px;
+    a:link{
+        color: black;
+    }
+    a:visited {
+        color: black;
+    }
+    a:hover {
+        color: darkslateblue;
+    }
+}
